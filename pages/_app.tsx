@@ -6,5 +6,10 @@ import type { AppProps } from 'next/app'
 config.autoAddCss = false
 
 export default function App({ Component, pageProps }: AppProps) {
+  console.log("| = = = = = = = = = = = = = = = = |")
+  console.log()
+  console.log("Ba't andito ka?")
+  console.log()
+  console.log("| = = = = = = = = = = = = = = = = |")
   return <Component {...pageProps} />
 }
